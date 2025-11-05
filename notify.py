@@ -1,7 +1,7 @@
 import requests
 
-TOKEN = "8467883257:AAEFn4nYxKdGdpeBSKLjwVuHHP51Eb_oED8"   # <-- replace this
-CHAT_ID = 5361232040          # <-- replace this (just number)
+TOKEN = ""   # <-- replace this with token
+CHAT_ID =           # <-- replace this with chat I'd of telegram bot (just number)
 
 def send_notification(message):
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
@@ -11,3 +11,4 @@ def send_notification(message):
 
 if __name__ == "__main__":
     send_notification("✅ AutoML Bot connected successfully!")
+
