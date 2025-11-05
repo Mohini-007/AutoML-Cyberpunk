@@ -1,0 +1,39 @@
+/* --- Cyberpunk Neon UI Style --- */
+
+body, .stApp {
+  background: linear-gradient(135deg, #000000, #0a001a, #001133);
+  font-family: 'Orbitron', sans-serif;
+  color: #e0e6f0 !important;
+}
+
+.stButton>button {
+  background: linear-gradient(90deg, #ff0099, #6600ff);
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 12px #ff00ff;
+  transition: 0.3s;
+}
+.stButton>button:hover {
+  box-shadow: 0 0 20px #9900ff;
+  transform: translateY(-2px);
+}
+
+.stSelectbox, .stTextInput, .stFileUploader {
+  background: rgba(255,255,255,0.07) !important;
+  border-radius: 6px;
+  padding: 5px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.stDataFrame {
+  background-color: rgba(255,255,255,0.05) !important;
+}
+
+h1, h2, h3 {
+  color: #ff00ff !important;
+  text-shadow: 0 0 10px #ff00ff;
+}
